@@ -1,5 +1,11 @@
-import { addOne } from '../index'
+import { stopApp, TestButton } from '../index'
 
-test('addOne', () => {
-  expect(addOne(0)).toEqual(1)
+test('stop app function', () => {
+  console.log(stopApp, TestButton)
+  expect(stopApp).toBeInstanceOf(Function)
+})
+test('stop app test button', () => {
+  expect(TestButton).toBeInstanceOf(Function)
+  const testButton = TestButton()
+  expect(testButton).not.toBeInstanceOf(Function)
 })
