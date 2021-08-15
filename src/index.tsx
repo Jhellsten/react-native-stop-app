@@ -1,15 +1,28 @@
 import * as React from 'react'
 import { Button, NativeModules, StyleSheet, Text, View } from 'react-native'
 
-export const addOne = (input: number) => input + 1
+/**
+ * Will stop the app on iOS and Android
+ *
+ * @returns void
+ */
 
-export const Counter = () => {
-  const [count, setCount] = React.useState(0)
+export const stopApp = () => NativeModules.RNStopApp.stopApp()
 
+/**
+ * Returns an view with test button to stop the app.
+ *
+ * @returns JSX.Element
+ */
+
+export const TestButton = () => {
   return (
     <View style={styles.container}>
-      <Text>You pressed {count} times</Text>
-      <Button onPress={() => setCount(addOne(count))} title='Press Me' />
+      <Text>Test to stop app!</Text>
+      <Button
+        onPress={() => NativeModules.RNStopApp.stopApp()}
+        title='Stop the app'
+      />
     </View>
   )
 }
@@ -23,4 +36,4 @@ const styles = StyleSheet.create({
   },
 })
 
-export default NativeModules.RNStopAppModule
+export default NativeModules.RNStopApp

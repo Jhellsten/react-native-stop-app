@@ -1,4 +1,4 @@
-package com.janhellsten.reactnativestopapp
+package com.hellsten.reactnativestopapp
 
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule

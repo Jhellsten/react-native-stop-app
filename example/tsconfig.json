@@ -13,5 +13,8 @@
     "strict": true,
     "target": "ESNext",
   },
-  "include": ["src"]
+  "include": ["src"],
+  "paths": {
+    "react-native-stop-app": ["../src"]
+  },
 }

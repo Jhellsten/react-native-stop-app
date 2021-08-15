@@ -1,12 +1,33 @@
 import React, { useEffect } from 'react'
-import RNStopAppModule, { Counter } from 'react-native-stop-app'
+import { Button, StyleSheet, Text, View } from 'react-native'
+import RNStopApp, { TestButton, stopApp } from 'react-native-stop-app'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNStopAppModule)
+    console.log(RNStopApp)
+    console.log(RNStopApp)
   })
 
-  return <Counter />
+  return <View style={styles.container}>
+    <TestButton />
+    <View>
+      <Button onPress={() => stopApp()} title="Stop the app">
+        <Text>
+          You can test the method inside this!
+        </Text>
+      </Button>
+    </View>
+    
+    </View>
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 400,
+  },
+})
 
 export default App

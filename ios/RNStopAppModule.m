@@ -5,7 +5,15 @@
 //  Copyright © 2021 Jan Hellsten. All rights reserved.
 //
 
-#import <React/RCTBridgeModule.h>
+#import "RNStopAppModule.h"
 
-@interface RCT_EXTERN_MODULE(RNStopAppModule, NSObject)
+@implementation RNStopApp
+
+RCT_EXPORT_MODULE()
+
+RCT_EXPORT_METHOD(stopApp)
+{
+    exit(0);
+}
+
 @end
