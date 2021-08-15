@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		61E66DC60ECF1ED846AF4C0E /* libPods-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29778723611C0A7EE7209DB8 /* libPods-example.a */; };
+		61E66DC60ECF1ED846AF4C0E /* libPods-RNStopAppExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29778723611C0A7EE7209DB8 /* libPods-RNStopAppExample.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FAA6DE282607FC1C0044CA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */; };
 		FAE31FCD265B9F6F007094C1 /* libRNStopAppModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE31FCC265B9F5F007094C1 /* libRNStopAppModule.a */; };
@@ -25,16 +25,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = example/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = example/Info.plist; sourceTree = "<group>"; };
-		29778723611C0A7EE7209DB8 /* libPods-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5912F83C7D1432847777AA6B /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.debug.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = example/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C335C5F745C815096C675804 /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.release.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RNStopAppExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNStopAppExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNStopAppExample/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNStopAppExample/Info.plist; sourceTree = "<group>"; };
+		29778723611C0A7EE7209DB8 /* libPods-RNStopAppExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNStopAppExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5912F83C7D1432847777AA6B /* Pods-RNStopAppExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStopAppExample.debug.xcconfig"; path = "Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNStopAppExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C335C5F745C815096C675804 /* Pods-RNStopAppExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStopAppExample.release.xcconfig"; path = "Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = example/AppDelegate.swift; sourceTree = "<group>"; };
-		FAA6DE2A2607FC480044CA6D /* example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "example-Bridging-Header.h"; path = "example/example-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RNStopAppExample/AppDelegate.swift; sourceTree = "<group>"; };
 		FAE31FC7265B9F5F007094C1 /* RNStopAppModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNStopAppModule.xcodeproj; path = ../../ios/RNStopAppModule.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,30 +43,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE31FCD265B9F6F007094C1 /* libRNStopAppModule.a in Frameworks */,
-				61E66DC60ECF1ED846AF4C0E /* libPods-example.a in Frameworks */,
+				61E66DC60ECF1ED846AF4C0E /* libPods-RNStopAppExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* example */ = {
+		13B07FAE1A68108700A75B9A /* RNStopAppExample */ = {
 			isa = PBXGroup;
 			children = (
 				FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				FAA6DE2A2607FC480044CA6D /* example-Bridging-Header.h */,
 			);
-			name = example;
+			name = RNStopAppExample;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				29778723611C0A7EE7209DB8 /* libPods-example.a */,
+				29778723611C0A7EE7209DB8 /* libPods-RNStopAppExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,8 +73,8 @@
 		360A22F5C615B0814726ED20 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5912F83C7D1432847777AA6B /* Pods-example.debug.xcconfig */,
-				C335C5F745C815096C675804 /* Pods-example.release.xcconfig */,
+				5912F83C7D1432847777AA6B /* Pods-RNStopAppExample.debug.xcconfig */,
+				C335C5F745C815096C675804 /* Pods-RNStopAppExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -92,7 +90,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* example */,
+				13B07FAE1A68108700A75B9A /* RNStopAppExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -106,7 +104,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* example.app */,
+				13B07F961A680F5B00A75B9A /* RNStopAppExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* example */ = {
+		13B07F861A680F5B00A75B9A /* RNStopAppExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "example" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNStopAppExample" */;
 			buildPhases = (
 				7D17F0B292B81AC923170209 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -139,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = example;
-			productName = example;
-			productReference = 13B07F961A680F5B00A75B9A /* example.app */;
+			name = RNStopAppExample;
+			productName = RNStopAppExample;
+			productReference = 13B07F961A680F5B00A75B9A /* RNStopAppExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "example" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNStopAppExample" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -176,7 +174,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* example */,
+				13B07F861A680F5B00A75B9A /* RNStopAppExample */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +231,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNStopAppExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -246,15 +244,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3525B80767576DAF1196D08 /* [CP] Copy Pods Resources */ = {
@@ -263,15 +261,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -309,13 +307,13 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5912F83C7D1432847777AA6B /* Pods-example.debug.xcconfig */;
+			baseConfigurationReference = 5912F83C7D1432847777AA6B /* Pods-RNStopAppExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = example/Info.plist;
+				INFOPLIST_FILE = RNStopAppExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,8 +324,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier:lower)";
-				PRODUCT_NAME = example;
-				SWIFT_OBJC_BRIDGING_HEADER = "example/example-Bridging-Header.h";
+				PRODUCT_NAME = RNStopAppExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNStopAppExample/RNStopAppExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -336,12 +334,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C335C5F745C815096C675804 /* Pods-example.release.xcconfig */;
+			baseConfigurationReference = C335C5F745C815096C675804 /* Pods-RNStopAppExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = example/Info.plist;
+				INFOPLIST_FILE = RNStopAppExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,8 +350,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier:lower)";
-				PRODUCT_NAME = example;
-				SWIFT_OBJC_BRIDGING_HEADER = "example/example-Bridging-Header.h";
+				PRODUCT_NAME = RNStopAppExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNStopAppExample/RNStopAppExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -479,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "example" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNStopAppExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -488,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "example" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNStopAppExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
