@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
-import { Button, StyleSheet, Text, View } from 'react-native'
+import { Button, StyleSheet, Text, View, NativeModules } from 'react-native'
 import RNStopApp, { TestButton, stopApp } from 'react-native-stop-app'
 
 const App = () => {
   useEffect(() => {
     console.log(RNStopApp)
-    console.log(RNStopApp)
+    console.log(NativeModules)
   })
 
   return <View style={styles.container}>

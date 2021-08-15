@@ -7,7 +7,7 @@ import { Button, NativeModules, StyleSheet, Text, View } from 'react-native'
  * @returns void
  */
 
-export const stopApp = () => NativeModules.RNStopApp.stopApp()
+export const stopApp = (): void => NativeModules.RNStopApp.stopApp()
 
 /**
  * Returns an view with test button to stop the app.
@@ -16,6 +16,7 @@ export const stopApp = () => NativeModules.RNStopApp.stopApp()
  */
 
 export const TestButton = () => {
+  console.log('NativeModules', NativeModules)
   return (
     <View style={styles.container}>
       <Text>Test to stop app!</Text>

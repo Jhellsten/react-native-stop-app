@@ -29,6 +29,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNStopAppExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNStopAppExample/Info.plist; sourceTree = "<group>"; };
 		29778723611C0A7EE7209DB8 /* libPods-RNStopAppExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNStopAppExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B6E10426C9ACE700CA848D /* RNStopAppExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RNStopAppExample-Bridging-Header.h"; path = "RNStopAppExample/RNStopAppExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		5912F83C7D1432847777AA6B /* Pods-RNStopAppExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStopAppExample.debug.xcconfig"; path = "Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNStopAppExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C335C5F745C815096C675804 /* Pods-RNStopAppExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStopAppExample.release.xcconfig"; path = "Target Support Files/Pods-RNStopAppExample/Pods-RNStopAppExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				40B6E10426C9ACE700CA848D /* RNStopAppExample-Bridging-Header.h */,
 			);
 			name = RNStopAppExample;
 			sourceTree = "<group>";

@@ -1,4 +1,4 @@
-package com.example
+package com.hellsten.reactnativestopapp.example
 
 import com.facebook.react.ReactActivity
 

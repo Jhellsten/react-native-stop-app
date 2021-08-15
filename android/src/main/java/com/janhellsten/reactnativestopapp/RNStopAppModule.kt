@@ -2,18 +2,23 @@ package com.hellsten.reactnativestopapp
 
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
+import com.facebook.react.bridge.ReactMethod
+import kotlin.system.exitProcess
 
-class RNStopAppModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaModule(reactContext) {
 
-    override fun getName() = "RNStopAppModule"
+class RNStopApp(reactContext: ReactApplicationContext) : ReactContextBaseJavaModule(reactContext) {
+
+
+
+    override fun getName() = "RNStopApp"
 
     override fun getConstants(): MutableMap<String, Any> {
         return hashMapOf("count" to 1)
     }
 
     @ReactMethod
-    public void stopApp() {
-        android.os.Process.killProcess(android.os.Process.myPid());
-        System.exit(0);
+    fun stopApp() {
+        android.os.Process.killProcess(android.os.Process.myPid())
+        exitProcess(0)
   }
 }

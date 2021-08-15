@@ -14,6 +14,8 @@ class RNStopAppPackage : ReactPackage {
 
     override fun createNativeModules(reactContext: ReactApplicationContext):
             MutableList<NativeModule> {
-        return mutableListOf(RNStopAppModule(reactContext))
+        val modules = ArrayList<NativeModule>()
+        modules.add(RNStopApp(reactContext))
+        return modules
     }
 }
