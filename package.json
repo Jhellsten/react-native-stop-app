@@ -1,7 +1,8 @@
 {
   "name": "react-native-stop-app",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A very simple library to stop app and kill app",
+  "keywords": ["react native", "exit", "close", "stop"],
   "homepage": "https://github.com/Jhellsten/react-native-stop-app#readme",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
